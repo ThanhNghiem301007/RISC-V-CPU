@@ -12,7 +12,5 @@ Versions (each one is a tagged, shippable release):
 - v2.1 extension (M-extension, then branch predictor)
 - v3.0 FPGA build + synthesis numbers + polished README
 
-Rule: never start a later version before the earlier one is tagged. If time runs out, you still have a finished project.
-
-**Scope (in):** RV32I base integer ISA (minus FENCE/ECALL/EBREAK initially), unified or split instruction/data memory in simulation, word/half/byte loads and stores. 
-**Scope (out for now):** caches, interrupts, virtual memory, multi-core, floating point.
+- **Scope (in):** RV32I base integer ISA (minus FENCE/ECALL/EBREAK initially), unified or split instruction/data memory in simulation, word/half/byte loads and stores. 
+- **Scope (out for now):** caches, interrupts, virtual memory, multi-core, floating point.
