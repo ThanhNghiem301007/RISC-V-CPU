@@ -1,4 +1,4 @@
-# RV32I Piplined CPU (SystemVerilog)
+# RV32I Pipelined CPU (SystemVerilog)
 **Status:** Phase 0, tooling and ISA reading
 
 Goal: Design, verify, and document a 32-bit RISC-V (RV32I) CPU in SystemVerilog, first single-cycle, then 5-stage pipelined, verified automatically against the Spike reference simulator and the official riscv-tests suite, then extended and measured.
