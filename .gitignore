@@ -1,0 +1,26 @@
+# Build and simulation output (all regenerable)
+build/
+obj_dir/
+
+# Waveforms (can be hundreds of MB)
+*.vcd
+*.fst
+
+# Compiled RISC-V programs
+*.o
+*.elf
+*.hex
+*.bin
+*.dis
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+.venv/
+
+# Editor / OS junk
+*.swp
+.DS_Store
+Thumbs.db
